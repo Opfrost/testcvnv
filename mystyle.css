@@ -38,9 +38,14 @@
   font-family: "Philosopher", sans-serif;
 }
 
+h1{
+font-size: 50px;
+
+}
+
 h2 {
   position: relative;
-  font-size: 30px;
+  font-size: 40px;
   z-index: 1;
   overflow: hidden;
   text-align: center;
