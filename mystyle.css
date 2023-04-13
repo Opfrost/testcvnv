@@ -27,6 +27,11 @@
   display: table;
   clear: both;
   align-items: center;
+ 
+}
+.row{
+  background-color:#e8ecf0 ;
+
 }
 /* fonts and stlyes for them */
 .fontcss {
@@ -81,7 +86,8 @@ img {
 
 /*colors backgrounds*/
 body {
-  background-color: #FFFFFC;
+  background-color:#e8ecf0 ;
+
 }
 
 .bgclrtwo {
