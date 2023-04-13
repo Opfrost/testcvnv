@@ -116,7 +116,10 @@ background-image: url();
   background-image: linear-gradient(to bottom, #b23a48, #b23a48);
   text-decoration: none;
 }
-
+.white_text{
+color: #FFFFFC;
+z-index: 2;
+}
 /* parallax*/ 
 
 body, html {
@@ -125,7 +128,7 @@ body, html {
 
 .parallax {
   /* The image used */
-  background-image: url("/pexels-jessica-lewis-creative-593322.jpg");
+  background-image: url("pexels-jessica-lewis-creative-593322.jpg");
 
   /* Full height */
   height: 100%;
@@ -135,4 +138,20 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+ 
+
+}
+.parallax::after{
+  background-color: rgba(54, 54, 54, 0.295);
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+
+}
+
+
+
+.bg_overlay{
+
 }
