@@ -153,10 +153,11 @@ body, html {
 
 .parallax {
   /* The image used */
-  background-image: url("https://images.pexels.com/photos/593322/pexels-photo-593322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url("https://images.pexels.com/photos/593322/pexels-photo-593322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
  
   /* Full height */
   height: 100%;
+  width: 100%;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -166,6 +167,7 @@ body, html {
  
 
 }
+
 
 .p_img {
   display: block;
