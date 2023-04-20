@@ -195,3 +195,21 @@ cursor: pointer;
   
 }
 
+/* test button css */
+
+.cc-rockmenu .rolling {
+  display: inline-block;
+  cursor:pointer;
+  width: 52px;
+  height: 52px;
+  text-align:left;
+  overflow: hidden;
+  border-radius: 26px;
+  background: #b6a14c;
+  transition: all 0.3s ease-out;
+  white-space: nowrap;
+}
+.cc-rockmenu .rolling:hover {
+  width: 312px;
+}
+
