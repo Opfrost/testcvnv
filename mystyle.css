@@ -1,4 +1,9 @@
 /* rows and coloumns */
+* {
+  box-sizing: border-box;
+}
+
+
 .row_center {
   
   display: flex;
@@ -9,8 +14,7 @@
 
 .column {
   float: left;
-  width: 50%;
-  
+  width: 50%
 }
 .three_column {
   float: left;
@@ -39,6 +43,15 @@
   padding-bottom: 45px;
 
 }
+.row_two {
+  background-color:#e8ecf0 ;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  display: flex;
+
+}
 /* fonts and stlyes for them */
 p{
 
@@ -50,6 +63,7 @@ ul{
 }
 .fontcss {
   font-family: "Philosopher", sans-serif;
+  font-size: 24px;
 }
 
 h1{
